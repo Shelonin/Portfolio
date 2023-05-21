@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    background-image:linear-gradient(white, red);
+}
+header{
+    height: 50px;
+}
+header a{
+    border:5px solid red;
+    margin-bottom: 20px;
+}
+
+main a{
+    border:3px solid green;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(white,navy);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+p{
+    padding: 10px;
+    border: 5px solid orange;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+}
+
+main div{
+    position: fixed;
+    display:block;
+    left:500px;
+    bottom:100px;
+    background-color: deepskyblue;
+    border: 3px solid black;
+    padding:5px;
+    border-radius:20px;
+}
+
+main h1{
+    background-image:linear-gradient(to bottom, lightgreen, blue);
+}
+
+header a:hover{
+    color:black;
+}
